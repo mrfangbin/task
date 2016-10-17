@@ -1,0 +1,84 @@
+#main {
+	background-color:#fafafa;
+}
+.col-sm-3.col-xs-12 {
+	margin-bottom:15px;
+}
+.row_1 {
+	height:4rem;
+	line-height:4rem;
+	font-size:0.8rem;
+	color:#29b078;
+}
+a.gohome {
+	text-decoration:none;
+	line-height:4rem;
+	font-size:0.8rem;
+	color:#333333;
+}
+
+
+
+.partners_porfile {
+	background-color:white;
+	color:#999999;
+	font-size:0.7rem;
+	line-height:1.3rem;
+	text-indent:1.4rem;
+	padding:1rem 3rem;
+	border:1px #eeeded solid;
+	border-radius:0.2rem;
+	text-align:justify;
+}
+
+.profile_box {
+	overflow:hidden;
+	border-bottom:1px #eeeded solid;
+}
+.introduction_box {
+	padding-top:1.5rem;
+	padding-bottom:3rem;
+}
+
+#tab_link {
+	background-color:white;
+}
+#tab_link div {
+	line-height:3rem;
+	color:#333333;
+	font-size:0.8rem;
+	text-align:center;
+	border-bottom:1px #eeeded solid;
+}
+#tab_link li {
+	list-style:none;
+	width:5rem;
+	margin:auto;
+}
+#tab_link li a {
+	line-height:2.5rem;
+	color:#29b078;
+	text-decoration:none;
+	font-size:0.7rem;
+}
+#tab_link li a:hover , #tab_link li.active a {
+	color:#ff650e;
+}
+
+.circle {
+	display:inline-block;
+	width:0.5rem;
+	height:0.5rem;
+	border-radius:0.25rem;
+	border:1px #ff650e solid;
+	margin:0 0.3rem;
+}
+.active .circle {
+	background-color:#f9a372;
+}
+
+@media (max-width:768px) { 
+	#tab_link li {
+	display:inline-block;
+}
+}

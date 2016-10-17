@@ -1,0 +1,150 @@
+
+/*main*/
+#main {
+	background-color:#fafafa;
+}
+#main nav ul {
+	border-top:0.1rem solid #d0d6d9;
+	border-bottom:0.1rem solid #edf1f2;
+	color:#999999;
+	font-size:0.7rem;
+	line-height:3rem;
+}
+#main nav ul li {
+	display:inline-block;
+	width:5rem;
+	text-align:center;
+}
+#main nav ul li a ,#main nav ul li a:link{
+	color:#333333;
+	text-decoration:none;
+	background-color:transparent;
+}
+#main nav ul li:hover a {
+	background-color:#29b078;
+	color:white;
+}
+.main_top {
+	height:4rem;
+	line-height:4rem;
+	font-size:0.8rem;
+	color:#29b078;
+}
+a.gohome {
+	text-decoration:none;
+	line-height:4rem;
+	font-size:0.8rem;
+	color:#333333;
+}
+
+
+.is_hover {
+	height:100%;
+	position:absolute;
+	padding:2rem;
+	font-size:0.8rem;
+	line-height:1.15rem;
+	text-align:justify;
+	top:0;
+	left:0;
+	background-color:rgba(0,0,0,0);
+	color:transparent;
+	transition: all 0.5s ease-in 0s;
+}
+.is_hover:hover {
+	background-color:rgba(0,0,0,0.76);
+	color:white;
+}
+.is_hover p.text_center {
+	padding: 2rem 0;
+	text-align:center;
+}
+.star {
+	display:inline-block;
+	width:0.8rem;
+	height:0.8rem;
+	background-image:url("../images/star.png");
+	vertical-align:middle;
+	margin-left:0.5rem;
+}
+.gray {
+	color:#999999;
+}
+.black {
+	color:#333333;
+}
+.red {
+	color:#f01400;
+}
+h2 {
+	font-size:0.8rem;
+	padding:0.7rem 0;
+	font-weight:bold;
+	color:#333333;
+}
+h1 {
+	font-size:0.8rem;
+	color:#333333;
+	line-height:4rem;
+	border-bottom: 1px #d0d6d9 solid;
+}
+
+.card {
+	position:relative;
+	margin:1.5rem 0;
+	background-color:white;
+}
+
+table {
+	font-size:0.6rem; 			
+	border-collapse:collapse;
+}
+td {
+	border:0.05rem #d0d6d9 solid;
+	padding:0.5rem;
+}
+#r1c1 img {
+	padding-right:0.5rem;
+}
+#r2c1 {
+	width:50%;
+}
+#r4c1 {
+	width:40%;
+	text-align:center;
+}
+#r1 p {
+	line-height:1rem;
+	font-size:0.7rem;
+}
+#r7 p {
+	font-size:0.7rem;
+	font-weight:blod;
+	color:#333333;
+}
+
+/**/
+.dropdown_btn {
+	margin:1rem 0;
+	line-height:0;
+	background-color:#29b078;
+}
+
+
+@media (min-width:768px) { 
+.dropdown_box {
+	display:none;
+}
+}
+
+@media (max-width:768px) { 
+.tab_link {
+	display:none;
+}
+
+}
+
+
+
+
+
