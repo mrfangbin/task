@@ -1,0 +1,76 @@
+* {
+	margin:0;
+	padding:0;
+}
+
+body {
+	max-width:720px;
+	margin:auto;
+	color:white;
+	font-size:2rem;
+	font-family: Microsoft YaHei, serif;
+	line-height:5.5rem;
+	background-color:#eff0f4;
+}
+/*header*/
+header {
+	background-color:#5fc0cd;
+	padding: 0 1.75rem;
+	overflow:hidden;
+}
+#close , #login ,  #register{
+	float:left;
+	width:33%;
+}
+#login {
+	text-align:center;
+	font-size:2.25rem;
+}
+ #register{
+	 text-align:right;
+ }
+
+ /*section*/
+ section {
+	padding-top:1px;
+}
+ 
+ /*from*/
+.input_box {
+	background-color:white;
+	margin:1rem 0;	
+}
+img{
+	vertical-align:middle;
+	max-width:100%;
+}
+img.lpng{
+	padding:0 40px;
+}
+input.input {
+	display:inline-block;
+	color:#e1e5e7;
+	border:none;
+	outline:none;
+	font-size:2rem;
+	line-height:5.5rem;
+}
+#login_btn {
+	border:none;
+	width:100%;
+	background-color:#5fc0cd;
+	color:white;
+	font-size:2.25rem;
+	line-height:5.5rem;
+	margin-top:3.3rem;
+}
+p.forget{
+	margin-top:1.25rem;
+	color:#5fc0cd;
+	text-align:right;
+}
+@media screen and (max-width: 480px) {
+    html {
+        font-size: 50%;
+    }
+}
