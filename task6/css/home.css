@@ -1,0 +1,104 @@
+* {
+	margin:0;
+	padding:0;
+}
+body {
+	min-width:320px;
+	max-width:640px;
+	margin:auto;
+	text-align:center;
+	font-family: Microsoft YaHei, serif;
+}
+/*header*/
+header {
+	background-color:#29bde0;
+	height:5.5rem;
+}
+ #hamburg_box {
+	float:left;
+	padding: 1.5rem 0 0 1.375rem;
+  }
+ .bread {
+	width:2.125rem;
+	height:0.25rem;
+	background-color:white;
+	margin:0.4375rem 0;
+}
+
+/*main*/
+.main {
+	background-color:#f0f0f0;
+	padding:1.625rem 2.1875rem;
+}
+
+#title_box , #game_box {
+	background-color:white;
+	color:#9a9a9a;
+	border: 1px  #c9c9c9 solid;
+}
+/*title*/
+#title_box {
+	font-size:2.18rem;
+	line-height:7.25rem;
+	margin-bottom:1.625rem;
+}
+.next {
+	display:inline-black;
+	background-image:url("images/next.png");
+	float:right;
+	width:1.5rem;
+	height:2.5rem;
+ }
+/*game_box*/
+#game_box h2 {
+	color:#fbb435;
+	font-size:2.36rem;
+	line-height:5.625rem;
+	border-bottom:2px #fdd793 solid;
+}
+.game_version {
+	color:white;
+	font-size:2rem;
+	line-height:8.5rem;
+	margin:1.6875rem 3.375rem;
+	background-color:#69d1e9;
+	position:relative;
+}
+.game_box h2 {
+	font-size:1.53rem;
+}
+
+#page_box {
+	margin:auto;
+	width:120px;
+	overflow:hidden;
+	padding:0.875rem 0 0.625rem 0;
+}
+ .page_status {
+	 margin:0 4.5px;
+	 float:left;
+	 width:18px;
+	 height:18px;
+	 border-radius:9px;
+	 background-color:#f0f0f0;
+ }
+ .page_now {
+	background-color:#69d1e9;
+ }
+#begin {
+	 position:absolute;
+	 top:50%;
+	 margin-top:-1.75rem;
+	 right:-4rem;
+	 border:1.75rem transparent solid;
+	 border-left-color:#fbb435 ;
+	 width:0;
+	 height:0;
+  }
+/*媒体查询*/
+@media screen and (max-width: 480px) {
+    html {
+        font-size:60%;
+    }
+}
+
