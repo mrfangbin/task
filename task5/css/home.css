@@ -1,0 +1,166 @@
+*{
+	margin:0;
+	padding:0;
+}
+body {
+	width:100%;
+	min-width:320px;
+	max-width:720px;
+	margin:auto;
+	font-family: Microsoft YaHei, serif;
+	background-color:#ffffff;
+	font-size:2rem;
+	position:relative;
+}
+img {
+	max-width:100%;
+}
+/*header*/
+header {
+	min-width:320px;
+	background-color:#5fc0cd;
+	font-size:2.25rem;
+	text-align:center;
+	line-height:5.5rem;
+	color:white;
+	position:relative;
+}
+
+#back {
+	display:inline-block;
+	position:absolute;
+	background-image:url("../images/bac.png");
+	background-size:contain;
+	width:1.25rem;
+	height:2.19rem;
+	left:2.25rem;
+	top:1.65rem;
+}
+
+/*头像区*/
+.man_box {
+	display:table;
+	width:100%;
+	font-size:1.5rem;	
+}
+#man {
+	background-image:url("../images/doctor.png");
+	background-size:cover;
+	height:20.4rem;
+	display:table-cell;
+	vertical-align:middle;
+	color:white;
+	width:100%;
+}
+#man #photo {
+	height:10.625rem;
+	width:10.625rem;
+	border-radius:5.3125rem;
+	background-color:white;
+	overflow:hidden;
+	position:relative;
+	margin:0 2.5rem 0 2rem;
+	float:left;
+}
+.girl {
+	position:absolute;
+	top:1rem;
+	left:50%;
+	margin-left:-3.56rem;
+}
+.text {
+	height:10.625rem;
+	display:table-cell;
+	vertical-align:middle;
+}
+.text p {
+	padding:0.5rem;
+}
+.user_name {
+	font-size:2.25rem;
+}
+.age {
+	font-size:1.75rem;
+}
+/*main*/
+.row {
+	border-bottom:1px solid #e1e5e7;
+	padding:2rem 3.75rem;
+	color:#333333;
+	position:relative;
+	overflow:hidden;
+}
+.separated {
+	position:relative;
+	left:-1.875rem;
+}
+.item {
+	border-right: 1px solid #e1e5e7;
+	padding-right:1.625rem;
+	margin-right:1.625rem;
+	color:#999999;
+}
+.piace {
+	color:#e26163;
+}
+.cell {
+	display:inline-block;
+	font-size:1.625rem;
+	position:absolute;
+	top:0.75rem;
+}
+.btn_box {
+	float:left;
+	width:50%;
+}
+/*footer*/
+#message ,#phone {
+	height:5.5rem;
+	margin:6rem 0.625rem 2.5rem 2.5rem;
+	text-align:center;
+	line-height:5.5rem;
+	color:#5fc0cd;
+	border: 2px #5fc0cd solid;
+	border-radius:9px;
+}
+#phone {
+	background-color:#5fc0cd;
+	color:white;
+	margin:6rem 2.5rem 2.5rem 0.625rem;
+}
+
+
+/*小图标*/
+.girl , .location, .separated , .star {
+	display:inline-block;
+	background-size:contain;
+}
+.girl {
+	background-image:url("../images/girl.png");
+	width:7.125rem;
+	height:9.8125rem;
+}
+.location {
+	background-image:url("../images/loc.png");
+	width:1.125rem;
+	height:1.4375rem;
+}
+.separated {
+	background-image:url("../images/fen.png");
+	width:0.2rem;
+	height:1.625rem;
+}
+.star {
+	background-image:url("../images/sta.png");
+	width:1.5rem;
+	height:1.5rem;
+	margin-right:0.5rem;
+}
+
+/*媒体查询*/
+@media screen and (max-width: 480px) {
+    html {
+        font-size: 50%;
+    }
+}
+
