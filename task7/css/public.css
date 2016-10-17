@@ -1,0 +1,120 @@
+/** sprite:public_sprite;sprite-image:url("../images/public_sprite.png"); sprite-layout: vertical */
+
+* {
+	margin:0;
+	padding:0;
+}
+html {
+	font-family: "Microsoft YaHei",Serif;
+	background-color:#fafafa;
+}
+@media screen and  (max-width: 1400px) {
+		html {
+			font-size:62.5%;
+			min-width:320px;
+		}
+}
+
+/*public*/
+
+.bg_div {
+	max-width:1280px;
+	margin:auto;
+	padding:0 2.5rem;
+	overflow:auto;
+}
+header {
+	color:#29b078;
+	font-size:1.4rem;
+	line-height:4rem;
+}
+#socical_network {
+	float:right;
+}
+
+.wechat {
+	display:inline-block;
+	vertical-align:middle;
+	background-image:url("../images/wechat.png"); /** sprite-ref: public_sprite; */
+	background-repeat:no-repeat;
+	width:2.4rem;
+	height:2.4rem;
+}
+.qq {
+	display:inline-block;
+	vertical-align:middle;
+	background-image:url("../images/qq.png");/** sprite-ref: public_sprite; */
+	background-repeat:no-repeat;
+	width:2.4rem;
+	height:2.4rem;
+}
+.weibo {
+	display:inline-block;
+	vertical-align:middle;
+	background-image:url("../images/weibo.png");/** sprite-ref: public_sprite; */
+	background-repeat:no-repeat;
+	width:2.4rem;
+	height:2.4rem;
+}
+header nav {
+	background-color:#29b078;
+}
+#logo {
+	padding-top:2.3rem;
+}
+header nav ul {
+	float:right;
+}
+.header_nav_li {
+	display:inline-block;
+	width:9.6rem;   
+	border-bottom:0.4rem #29b078 solid;
+	line-height:9.6rem;
+	text-align:center;
+	font-size:1.6rem;
+}
+header a ,footer a {
+	color:white;
+	text-decoration:none;
+}
+.header_nav_li:hover {
+	border-bottom:0.4rem white solid;
+}
+footer a:hover {
+	text-decoration:underline;
+}
+footer {
+	background-color:#29b078;
+	color:white;
+	font-size:1.4rem;
+}
+footer h3 {
+	font-size:1.6rem;
+	padding:3.8rem 0 1.7rem 0;
+}
+footer p {
+	font-size:1.4rem;
+	line-height:4.2rem;
+}
+.child_web {
+	float:left;
+	width:33%;
+	min-width:21rem;
+}
+.qc_code {
+	display:inline-block;
+	vertical-align:middle;
+	background-image:url("../images/qc_code.png");/** sprite-ref: public_sprite; */
+	background-repeat:no-repeat;
+	width:9.2rem;
+	height:9.2rem;
+}
+#footer_info {
+	padding-top:2rem;
+	font-size:1.2rem;
+	line-height:3rem;
+	text-align:center;
+}
+
+
+/*font*/

@@ -1,0 +1,139 @@
+#main {
+	max-width:1280px;
+	margin:auto;
+	padding:0 2.5rem;
+	overflow:hidden;
+}
+.main_top {
+	background-color:#fafafa;
+	height:8rem;
+	line-height:8rem;
+	font-size:1.6rem;
+	color:#29b078;
+}
+a.gohome {
+	text-decoration:none;
+	line-height:8rem;
+	font-size:1.6rem;
+	color:#333333;
+}
+.nav_occ_list {
+	height:3.7rem;
+	border-top:0.2rem solid #d0d6d9;
+	border-bottom:0.1rem solid #edf1f2;
+	color:#999999;
+	font-size:1.4rem;
+	padding-top:2.3rem;
+}
+.occ_list li {
+	display:inline-block;
+	color:#333333;
+	margin: 0 1.8rem;
+}
+ .occ_list li.choose , .occ_list li:hover {
+	background-color:#29b078;
+	color:white;
+}
+
+
+
+#font_end ,#after_end , #mobile ,#full_stack ,#operation {
+	overflow:hidden;
+}
+#operation {
+	margin-bottom:20rem;
+}
+.occ_box {
+	width:38.2rem;
+	height:44.5rem;
+	float:left;
+	position:relative;
+	overflow:hidden;
+	margin:4.6rem 2.6rem 0 0;
+
+}
+
+h1 {
+	font-size:1.6rem;
+	color:#333333;
+	line-height:8rem;
+	border-bottom: 1px #d0d6d9 solid;
+}
+h2 {
+	font-size:1.6rem;
+	padding:1.4rem 0;
+	font-weight:bold;
+	color:#333333;
+}
+table {
+	width:38.2rem;
+	height:44.5rem;
+	font-size:1.2rem; 			
+	border-collapse:collapse;
+}
+td {
+	border:0.1rem #d0d6d9 solid;
+	padding:1rem;
+}
+#r2c1 {
+	width:50%;
+}
+#r4c1 {
+	width:40%;
+	text-align:center;
+}
+#r1 p {
+	line-height:2rem;
+	font-size:1.4rem;
+}
+#r7 p {
+	font-size:1.4rem;
+	font-weight:blod;
+	color:#333333;
+}
+.rank {
+	float:left;
+	padding-right:1rem;
+}
+.star {
+	display:inline-block;
+	width:1.6rem;
+	height:1.5rem;
+	background-image:url("../images/star.png");
+	vertical-align:middle;
+	margin-left:1rem;
+}
+.gray {
+	color:#999999;
+}
+.black {
+	color:#333333;
+}
+.red {
+	color:#f01400;
+}
+.right {
+	float:right;
+}
+.is_hover {
+	width:30.2rem;
+	height:36.4rem;
+	position:absolute;
+	padding:4rem;
+	font-size:1.6rem;
+	line-height:2.3rem;
+	text-align:justify;
+	top:0;
+	left:0;
+	background-color:rgba(0,0,0,0);
+	color:transparent;
+	transition: all 0.5s ease-in 0s;
+}
+.is_hover:hover {
+	background-color:rgba(0,0,0,0.76);
+	color:white;
+}
+.is_hover p.text_center {
+	padding: 4rem 0;
+	text-align:center;
+}
