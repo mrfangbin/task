@@ -1,0 +1,264 @@
+
+/*public*/
+* {
+	margin:0;
+	padding:0;
+}
+html {
+	font-size:125%;
+	font-family: "Microsoft YaHei",Serif;
+}
+.bg_div {
+	padding:0 1rem;
+	max-width:1280px;
+	margin:auto;
+	overflow:hidden;
+}
+.right {
+	float:right;
+}
+.left {
+	float:left;
+}
+
+/*header*/
+header {
+	background-color:#1d7ad9;
+	font-size:0.7rem;
+	color:white;
+	line-height:2rem;
+}
+.btn {
+	display:block;
+	text-align:center;
+	padding:0 0.5rem;
+	border-left:0.05rem white solid;
+	font-size:0.8rem;
+	color:white;
+}
+.btn:hover {
+	background-color:white;
+		color:black;
+}
+
+/*main*/
+
+.main {
+	font-size:0.9rem;
+}
+/*top*/
+#top_mean {
+	background-color:#f9f9f9;
+	padding-bottom:1.25rem;
+}
+#top_mean ul li {
+	display:inline-block;
+	margin:1.4rem 0 0 3rem;
+
+}
+#top_mean ul li a {
+	display:block;
+	padding:0 0.9rem;
+	border-radius:0.1rem;
+	background-color:white;
+	text-decoration:none;
+	color:black;
+	font-size:0.8rem;
+	line-height:2.4rem;
+}
+#top_mean ul li a:hover {
+	background-color:#1d7ad9;
+	color:white;
+}
+.progress_bar {
+	padding-top:1.8rem;
+}
+.progress_bar_cell {
+	height:4rem;
+	color:#cccccc;
+	text-align:center;
+	line-height:4rem;
+	position:relative;
+}
+.line {
+	width:8rem;
+	height:0.25rem;
+	border-radius:0.05rem;
+	background-color:#cccccc;
+}
+.round {
+	width:1.2rem;
+	height:1.2rem;
+	border-radius:0.6rem;
+	background-color:#cccccc;
+	text-align:center;
+	color:white;
+	position:absolute;
+	top:-0.6rem;
+	left:3.4rem;
+	font-size:1rem;
+	line-height:1.2rem;
+}
+.now_step {
+	background-color:#ff7f02;
+}
+.now_step_box {
+	color:#ff7f02;
+}
+
+h3 {
+	margin:0.75rem 0;
+	font-size:1.1rem;
+	color:#333333;
+	font-weight:normal;
+}
+.topics_box {
+	background-color:#f4f4f4;
+	color:#1d7ad9;
+	line-height:2.25rem;
+}
+.choose_box {
+	background-color:#fbfcff;
+	line-height:4rem;
+	position:relative;
+	padding-left:1.5rem;
+}
+.gray {
+	color:#666666;
+}
+.radio_text ,.number_text{
+	display:inline-block;
+	padding-right:3rem;
+}
+.details_box {
+	position:absolute;
+	right:1rem;
+	top:50%;
+	margin-top:-2rem;
+}
+.submit_box {
+	position:relative;
+	height:17rem;
+}
+.submit_btn {
+	position:absolute;
+	left:50%;
+	top:50%;
+	margin-left:-4.5rem;
+	display:block;
+	width:9rem;
+	height:2.3rem;
+	line-height:2.3rem;
+	font-size:1.2rem;
+	border:none;
+	border-radius:0.2rem;
+	background-color:#e15053;
+	color:white;
+}
+.radio_box {
+	position:relative;
+	display:inline-block;
+}
+input[type="radio"] {
+	position:absolute;
+	width:2rem;
+	height:2rem;
+	top:1rem;
+	opacity:0;
+}
+.radio {
+	width:18px;
+	height:18px;
+	display:inline-block;
+	margin-right:0.9rem;
+	background-image:url("../images/radio.png");
+}
+input[type="radio"]:checked+.radio {
+	background-image:url("../images/checked.png");
+}
+input[type="number"] {
+	width:3.4rem;
+	height:1.4rem;
+	border:0.05rem solid e8e8e8;
+}
+select {
+	height:1.85rem;
+	width:6.35rem;
+	color:#999999;
+	padding-left:1rem;
+	 /*Chrome和Firefox里面的边框是不一样的，所以复写了一下*/
+	border:0.05rem #999999 solid;
+
+	/*很关键：将默认的select选择框样式清除*/
+	appearance:none;
+	-moz-appearance:none;
+	-webkit-appearance:none;
+
+	/*在选择框显示小箭头*/
+	background: url("../images/bg_select.png");
+}
+option {
+	background-color:#e8e8e8;
+	color:#1d7ad9;
+}
+
+.images_box {
+	display:inline-block;
+	width:1rem;
+	height:0.75rem;
+	margin:0 0.55rem;
+	background-image:url("../images/box.png");
+}
+.images_packaging {
+	display:inline-block;
+	width:1.1rem;
+	height:1rem;
+	margin:0 0.5rem;
+	background-image:url("../images/packaging.png");
+}
+.images_scissors {
+	display:inline-block;
+	width:0.75rem;
+	height:1rem;
+	margin:0 0.675rem;
+	background-image:url("../images/scissors.png");
+}
+
+/*footer*/
+footer {
+	background-color:#f9f9f9;
+	font-size:0.7rem;
+	color:#999999;
+	line-height:1.5rem;
+}
+.bottom_mean {
+	padding:2rem 0;
+}
+.footer_box {
+	width:33.33%;
+	min-width:15rem;
+	padding-top:1rem;
+}
+footer p {
+	font-size:0.8rem;
+}
+.links li {
+	display:inline-block;
+	width:5rem;
+}
+.links li a {
+	text-decoration:none;
+	color:#999999;
+}
+.links li a:hover {
+			color:#1d7ad9;
+		}
+.contact_box {
+	width:12.5rem;
+}
+.footer_commrnts {
+	background-color:#1d7ad9;
+	text-align:center;
+	color:white;
+}
+
