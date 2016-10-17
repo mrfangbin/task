@@ -1,0 +1,259 @@
+.right{
+	float:right;
+}
+.left {
+	float:left;
+}
+
+ul,ol,li,h1,h2,h3,h4 ,p{
+	margin:0;
+	padding:0;
+}
+html {
+	font-size:125%;
+	font-family: "Microsoft YaHei",Serif;
+}
+
+header {
+	background-color:#1d7ad9;
+	font-size:0.7rem;
+	color:white;
+	line-height:2rem;
+	.topbtn {
+		display:inline-block;
+		text-align:center;
+		font-size:0.8rem;
+		color:white;
+		padding:0 0.5rem;
+		}
+	.topbtn:hover {
+		background-color:white;
+		color:black;
+		}
+}
+nav#top {
+	background-color:#f9f9f9;
+	padding-bottom:1.25rem;
+	ul li {
+	display:inline-block;
+	margin:1.4rem 0 0 3rem;
+		a {
+		display:block;
+		padding:0 0.9rem;
+		border-radius:0.2rem;
+		background-color:white;
+		text-decoration:none;
+		color:black;
+		font-size:0.8rem;
+		line-height:2.4rem;
+		}
+		a:hover {
+		background-color:#1d7ad9;
+		color:white;
+		}
+	}
+}
+
+
+#main {
+	font-size:0.9rem;
+	color:#999999;
+	.progress_bar {
+		padding-top:1.8rem;
+		.progress_bar_cell {
+			height:4rem;
+			color:#cccccc;
+			text-align:center;
+			line-height:4rem;
+			position:relative;
+			.line {
+				width:6rem;
+				height:0.25rem;
+				border-radius:0.05rem;
+				background-color:#cccccc;
+			}
+			.round {
+				width:1.2rem;
+				height:1.2rem;
+				border-radius:0.6rem;
+				background-color:#cccccc;
+				text-align:center;
+				color:white;
+				position:absolute;
+				top:-0.6rem;
+				left:2.4rem;
+				font-size:1rem;
+				line-height:1.2rem;
+			}
+			.now_step {
+			background-color:#ff7f02;
+			}
+			
+		}
+		.now_step_box {
+			color:#ff7f02;
+		}
+	}
+	h3 {
+		margin:0.75rem 0;
+		font-size:1.1rem;
+		color:#333333;
+		font-weight:normal;
+	}
+	.row.gray_box {
+		background-color:#f4f4f4;
+		color:#1d7ad9;
+		line-height:2.25rem;
+	}
+	.row {
+		background-color:#fbfcff;
+		line-height:4rem;
+		position:relative;
+	}
+	.details_box {
+		position:absolute;
+		right:1rem;
+		top:50%;
+		margin-top:-2rem;
+	}
+	.submit_box {
+		position:relative;
+		height:17rem;
+	}
+	.submit_btn {
+		position:absolute;
+		left:50%;
+		top:50%;
+		margin-left:-4.5rem;
+		display:block;
+		width:9rem;
+		height:2.3rem;
+		line-height:2.3rem;
+		font-size:1.2rem;
+		border:none;
+		border-radius:0.2rem;
+		background-color:#e15053;
+		color:white;
+	}
+	.radio_box {
+		position:relative;
+		display:inline-block;
+	}
+	input[type="radio"] {
+		position:absolute;
+		width:2rem;
+		height:2rem;
+		top:1rem;
+		opacity:0;
+	}
+	.myradio {
+		width:18px;
+		height:18px;
+		display:inline-block;
+		margin-right:0.9rem;
+		background-image:url("../images/radio.png");
+		background-size:contain;
+	}
+	input[type="radio"]:checked+.myradio {
+		background-image:url("../images/checked.png");
+		background-size:contain;
+	}
+	input[type="number"] {
+		width:3.4rem;
+		height:1.4rem;
+		border:0.05rem solid e8e8e8;
+	}
+	select {
+		height:1.85rem;
+		width:6.35rem;
+		color:#999999;
+		margin:1.1rem;
+		float:right;
+		padding-left:0.3rem;
+		 /*Chrome和Firefox里面的边框是不一样的，所以复写了一下*/
+		border:0.05rem #999999 solid;
+
+		/*很关键：将默认的select选择框样式清除*/
+		appearance:none;
+		-moz-appearance:none;
+		-webkit-appearance:none;
+
+		/*在选择框显示小箭头*/
+		background: url("../images/bg_select.png");
+		background-size:contain;
+	}
+	option {
+		background-color:#e8e8e8;
+		color:#1d7ad9;
+	}
+
+}
+
+
+/*footer*/
+footer{
+	background-color:#f9f9f9;
+	font-size:0.7rem;
+	color:#999999;
+	line-height:1.5rem;
+	p {
+		font-size:0.8rem;
+	}
+	.links li {
+	display:inline-block;
+	width:5rem;
+		a {
+			text-decoration:none;
+			color:#999999;
+		}
+		a:hover {
+			color:#1d7ad9;
+		}
+	}
+	.footer_commrnts {
+	background-color:#1d7ad9;
+	text-align:center;
+	color:white;
+	}
+}
+
+
+/*背景图替换元素*/
+.images_box {
+	display:inline-block;
+	width:1rem;
+	height:0.75rem;
+	margin:0 0.55rem;
+	background-image:url("../images/box.png");
+	background-size:contain;
+}
+.images_packaging {
+	display:inline-block;
+	width:1.1rem;
+	height:1rem;
+	margin:0 0.5rem;
+	background-image:url("../images/packaging.png");
+	background-size:contain;
+}
+.images_scissors {
+	display:inline-block;
+	width:0.75rem;
+	height:1rem;
+	margin:0 0.675rem;
+	background-image:url("../images/scissors.png");
+	background-size:contain;
+}
+
+/*@media screen*/
+
+@media screen and (max-width: 992px) {
+  html {
+    font-size:100%;
+  }
+}
+@media screen and (max-width: 768px) {
+  html {
+    font-size: 90%;
+  }
+}
+
